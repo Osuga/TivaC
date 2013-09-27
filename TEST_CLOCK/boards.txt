@@ -1,0 +1,60 @@
+######################################################
+# LM4F120H5QR 80MHz
+#	with launchpad
+######################################################
+lplm4f120h5qr.name=StellarPad w/ lm4f120h5qr (80MHz)
+lplm4f120h5qr.upload.maximum_size=262144
+lplm4f120h5qr.build.mcu=cortex-m4
+lplm4f120h5qr.build.f_cpu=80000000L
+lplm4f120h5qr.build.core=lm4f
+lplm4f120h5qr.build.variant=stellarpad
+lplm4f120h5qr.ldscript=lm4fcpp.ld
+
+
+######################################################
+# LM4F120H5QR 16MHz
+#	with launchpad
+######################################################
+lplm4f-120-1.name=StellarPad w/ lm4f120h5QR (16MHz)
+lplm4f-120-1.upload.maximum_size=262144
+lplm4f-120-1.build.mcu=cortex-m4
+lplm4f-120-1.build.f_cpu=16000000L
+lplm4f-120-1.build.core=lm4f
+lplm4f-120-1.build.variant=stellarpad
+lplm4f-120-1.ldscript=lm4fcpp.ld
+
+######################################################
+# Tiva C TM4C1233H6PM 80MHz
+#	with launchpad
+######################################################
+lpTivaC-1.name=Tiva C w/ TM4C1233H6PM (80MHz)
+lpTivaC-1.upload.maximum_size=262144
+lpTivaC-1.build.mcu=cortex-m4
+lpTivaC-1.build.f_cpu=80000000L
+lpTivaC-1.build.core=lm4f
+lpTivaC-1.build.variant=stellarpad
+lpTivaC-1.ldscript=lm4fcpp.ld
+
+######################################################
+# Tiva C TM4C1233H6PM 25MHz
+#	with launchpad
+######################################################
+lpTivaC-2.name=Tiva C w/ TM4C1233H6PM (25MHz)
+lpTivaC-2.upload.maximum_size=262144
+lpTivaC-2.build.mcu=cortex-m4
+lpTivaC-2.build.f_cpu=25000000L
+lpTivaC-2.build.core=lm4f
+lpTivaC-2.build.variant=stellarpad
+lpTivaC-2.ldscript=lm4fcpp.ld
+
+######################################################
+# Tiva C TM4C1233H6PM 16MHz
+#	with launchpad
+######################################################
+lpTivaC-3.name=Tiva C w/ TM4C1233H6PM (16MHz)
+lpTivaC-3.upload.maximum_size=262144
+lpTivaC-3.build.mcu=cortex-m4
+lpTivaC-3.build.f_cpu=16000000L
+lpTivaC-3.build.core=lm4f
+lpTivaC-3.build.variant=stellarpad
+lpTivaC-3.ldscript=lm4fcpp.ld
