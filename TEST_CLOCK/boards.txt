@@ -27,34 +27,70 @@ lplm4f-120-1.ldscript=lm4fcpp.ld
 # Tiva C TM4C1233H6PM 80MHz
 #	with launchpad
 ######################################################
-lpTivaC-1.name=Tiva C w/ TM4C1233H6PM (80MHz)
-lpTivaC-1.upload.maximum_size=262144
-lpTivaC-1.build.mcu=cortex-m4
-lpTivaC-1.build.f_cpu=80000000L
-lpTivaC-1.build.core=lm4f
-lpTivaC-1.build.variant=stellarpad
-lpTivaC-1.ldscript=lm4fcpp.ld
+lpTivaC-80.name=Tiva C w/ TM4C1233H6PM (80MHz)
+lpTivaC-80.upload.maximum_size=262144
+lpTivaC-80.build.mcu=cortex-m4
+lpTivaC-80.build.f_cpu=80000000L
+lpTivaC-80.build.core=lm4f
+lpTivaC-80.build.variant=stellarpad
+lpTivaC-80.ldscript=lm4fcpp.ld
 
 ######################################################
 # Tiva C TM4C1233H6PM 25MHz
 #	with launchpad
 ######################################################
-lpTivaC-2.name=Tiva C w/ TM4C1233H6PM (25MHz)
-lpTivaC-2.upload.maximum_size=262144
-lpTivaC-2.build.mcu=cortex-m4
-lpTivaC-2.build.f_cpu=25000000L
-lpTivaC-2.build.core=lm4f
-lpTivaC-2.build.variant=stellarpad
-lpTivaC-2.ldscript=lm4fcpp.ld
+lpTivaC-25.name=Tiva C w/ TM4C1233H6PM (25MHz)
+lpTivaC-25.upload.maximum_size=262144
+lpTivaC-25.build.mcu=cortex-m4
+lpTivaC-25.build.f_cpu=25000000L
+lpTivaC-25.build.core=lm4f
+lpTivaC-25.build.variant=stellarpad
+lpTivaC-25.ldscript=lm4fcpp.ld
 
 ######################################################
 # Tiva C TM4C1233H6PM 16MHz
 #	with launchpad
 ######################################################
-lpTivaC-3.name=Tiva C w/ TM4C1233H6PM (16MHz)
-lpTivaC-3.upload.maximum_size=262144
-lpTivaC-3.build.mcu=cortex-m4
-lpTivaC-3.build.f_cpu=16000000L
-lpTivaC-3.build.core=lm4f
-lpTivaC-3.build.variant=stellarpad
-lpTivaC-3.ldscript=lm4fcpp.ld
+lpTivaC-16.name=Tiva C w/ TM4C1233H6PM (16MHz)
+lpTivaC-16.upload.maximum_size=262144
+lpTivaC-16.build.mcu=cortex-m4
+lpTivaC-16.build.f_cpu=16000000L
+lpTivaC-16.build.core=lm4f
+lpTivaC-16.build.variant=stellarpad
+lpTivaC-16.ldscript=lm4fcpp.ld
+
+######################################################
+# Tiva C TM4C1233H6PM 50MHz
+#	with launchpad
+######################################################
+lpTivaC-50.name=Tiva C w/ TM4C1233H6PM (50MHz)
+lpTivaC-50.upload.maximum_size=262144
+lpTivaC-50.build.mcu=cortex-m4
+lpTivaC-50.build.f_cpu=50000000L
+lpTivaC-50.build.core=lm4f
+lpTivaC-50.build.variant=stellarpad
+lpTivaC-50.ldscript=lm4fcpp.ld
+
+######################################################
+# Tiva C TM4C1233H6PM 16MHz 
+#	with launchpad
+######################################################
+lpTivaC-16a.name=Tiva C w/ TM4C1233H6PM (16MHz NON-PLL)
+lpTivaC-16a.upload.maximum_size=262144
+lpTivaC-16a.build.mcu=cortex-m4
+lpTivaC-16a.build.f_cpu=16200000L
+lpTivaC-16a.build.core=lm4f
+lpTivaC-16a.build.variant=stellarpad
+lpTivaC-16a.ldscript=lm4fcpp.ld
+
+######################################################
+# Tiva C TM4C1233H6PM 16MHz INTERNAL OSC, NON PLL
+#	with launchpad
+######################################################
+lpTivaC-16b.name=Tiva C w/ TM4C1233H6PM (INT 16MHz NON-PLL)
+lpTivaC-16b.upload.maximum_size=262144
+lpTivaC-16b.build.mcu=cortex-m4
+lpTivaC-16b.build.f_cpu=16100000L
+lpTivaC-16b.build.core=lm4f
+lpTivaC-16b.build.variant=stellarpad
+lpTivaC-16b.ldscript=lm4fcpp.ld

@@ -4,17 +4,7 @@
 //
 
 #include "Energia.h"
-#include "inc/hw_ints.h"
-#include "inc/hw_nvic.h"
-#include "inc/hw_sysctl.h"
-#include "inc/hw_types.h"
-#include "inc/hw_timer.h"
-
 #include "driverlib/rom.h"
-#include "driverlib/cpu.h"
-#include "driverlib/debug.h"
-#include "driverlib/interrupt.h"
-#include "driverlib/timer.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/systick.h"
 
@@ -23,9 +13,10 @@
 void setup()
 {
   Serial.begin(38400);
-  pinMode( PUSH1, INPUT_PULLUP );
-  pinMode( PUSH2, INPUT_PULLUP );
   
+  pinMode( PUSH1, INPUT_PULLUP );  // not use
+  pinMode( PUSH2, INPUT_PULLUP );  // not use
+    
 }
 
 uint32_t system_clock;
